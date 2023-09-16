@@ -1,0 +1,46 @@
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.signup .signin{
+    width: 27vw;
+    height: 60vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.signup .signin input{
+    height: 5vh;
+    width: 20vw;
+    text-align: center;
+}
+
+.signup .signin button{
+    height: 5vh;
+    width: 20vw;
+    text-align: center;
+    background-color: rgb(23, 108, 235);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.signup .login-sign{
+    border: 2px solid black;
+    width: 27vw;
+}
+
+.signup .login-sign a{
+    text-decoration: none;
+    color: rgb(71, 71, 250);
+    font-weight: 800;
+}

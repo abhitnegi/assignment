@@ -1,0 +1,55 @@
+.task{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.task .create{
+    width: 27vw;
+    height: 70vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.task .create input{
+    height: 5vh;
+    width: 20vw;
+    text-align: center;
+}
+
+.task .create button{
+    height: 5vh;
+    width: 20vw;
+    text-align: center;
+    background-color: rgb(23, 108, 235);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.home .navbar{
+    display: flex;
+    gap: 4vw; 
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 7, 17);
+}
+
+.home .navbar a{
+    text-decoration: none;
+    color: rgb(49, 252, 184);
+}
+
+.home .navbar button{
+    background-color: rgb(7, 7, 17);
+    color: rgb(49, 252, 184);
+    border: none;
+}

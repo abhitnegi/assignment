@@ -1,0 +1,68 @@
+.navbar{
+    display: flex;
+    gap: 4vw; 
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 7, 17);
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(49, 252, 184);
+}
+
+.navbar button{
+    background-color: rgb(7, 7, 17);
+    color: rgb(49, 252, 184);
+    border: none;
+}
+
+.main-content{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    justify-content: space-around;
+    gap: 2vw;
+    height: 100vh;
+}
+
+.create{
+    width: 27vw;
+    height: 60vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+.create input{
+    height: 5vh;
+    width: 20vw;
+    text-align: center;
+}
+
+.create button{
+    height: 5vh;
+    width: 20vw;
+    text-align: center;
+    background-color: rgb(23, 108, 235);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.content{  
+    box-shadow: 1px 1px 5px 5px black;
+    background-color: white;
+    border-radius: 5%;
+    height: 50vh;
+}
+
+.task-create{
+    position: absolute;
+    top: 20vh;
+    left: 35vw;
+}
